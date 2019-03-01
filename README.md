@@ -78,10 +78,10 @@ All further log parts are explained in detail in the HAProxy Documentation for t
 
 #### SSL errors
 Skipping the frontend entry, the backend/server-name is followed by colon and afer that runs the SSL eror text, examples entries are:
-* Timeout during SSL handshake
-* SSL handshake failure
-* Connection closed during SSL handshake
-* Connection error during SSL handshake
+* `Timeout during SSL handshake`
+* `SSL handshake failure`
+* `Connection closed during SSL handshake`
+* `Connection error during SSL handshake`
 ```regexp
 (?<ssl_error>.*)
 ```
